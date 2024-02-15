@@ -1,7 +1,5 @@
 """
 Purpose: Determine student IDs that are both in Canvas Database and in Demographics Google Sheet.
-Author: Valdemar Švábenský
-Reviewed by: Clarence James G. Monterozo
 
 Configuration on which the code was tested: Python 3.10 on Windows 11 (with 8 GB of RAM).
 """

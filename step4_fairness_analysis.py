@@ -1,7 +1,5 @@
 """
 Purpose: Functions for fairness analyses.
-Author: Mélina Verger
-Reviewed by: Sébastien Lallé
 
 Configuration on which the code was tested: Python 3.10.4 on macOS 14.1 (with 16 GB of RAM).
 """

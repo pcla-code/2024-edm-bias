@@ -1,7 +1,5 @@
 """
 Purpose: Create a data set of features that can be directly used in regression/classification.
-Author: Valdemar Švábenský
-Reviewed by: Clarence James G. Monterozo
 
 Configuration on which the code was tested: Python 3.10 on Windows 11 (with 8 GB of RAM).
 """
