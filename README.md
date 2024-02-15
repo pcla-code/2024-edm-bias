@@ -12,14 +12,14 @@ Submitted for review in the 17th International Conference on Educational Data Mi
 
 Select and normalize Canvas student IDs that will be used later.
 
-(Data not included due to not obtaining approval yet, see Secion 5 in the paper.)
+(Data not included due to not obtaining approval yet, see Section 5 in the paper.)
 
 ## `step2_create_feature_data_set.py`
 
 Compute the values of predictor and target variables from the raw Canvas data.\
 See Section 3.3 in the paper.
 
-(Data not included due to not obtaining approval yet, see Secion 5 in the paper.)
+(Data not included due to not obtaining approval yet, see Section 5 in the paper.)
 
 ## `step3_prediction_modeling.py`
 
