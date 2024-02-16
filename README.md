@@ -30,5 +30,5 @@ See Section 3.4 in the paper.
 
 ## `step4_fairness_analysis.py`
 
-Perform fairness analysis (summarized in `results_grid.xlsx`).\
+Perform fairness analysis.\
 See Section 3.5 in the paper.
