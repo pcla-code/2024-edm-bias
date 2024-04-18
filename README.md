@@ -3,7 +3,7 @@
 This repository contains supplementary materials for the following conference paper:
 
 Valdemar Švábenský, Mélina Verger, Maria Mercedes T. Rodrigo, Clarence James G. Monterozo, Ryan S. Baker, Miguel Zenon Nicanor Lerias Saavedra, Sébastien Lallé, and Atsushi Shimada.\
-Evaluating Algorithmic Bias in Models for Predicting Academic Performance of Filipino Students.\
+**Evaluating Algorithmic Bias in Models for Predicting Academic Performance of Filipino Students**.\
 In Proceedings of the 17th International Conference on Educational Data Mining ([EDM 2024](https://educationaldatamining.org/edm2024/)).
 
 # File structure
@@ -12,7 +12,7 @@ In Proceedings of the 17th International Conference on Educational Data Mining (
 
 Select and normalize Canvas student IDs that will be used later.
 
-(We are unable to publish the input data due to the regulations of the university's legal department.)
+(We are unable to publish the input data due to the regulations of the legal department of Ateneo de Manila University.)
 
 ## `step2_create_feature_data_set.py`
 
