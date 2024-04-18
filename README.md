@@ -12,7 +12,7 @@ In Proceedings of the 17th International Conference on Educational Data Mining (
 
 Select and normalize Canvas student IDs that will be used later.
 
-(We are unable to publish the input data due to the regulations of the legal department of Ateneo de Manila University.)
+(We are unable to publish the input data due to the regulations of the university's legal department.)
 
 ## `step2_create_feature_data_set.py`
 
