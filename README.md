@@ -2,9 +2,9 @@
 
 This repository contains supplementary materials for the following conference paper:
 
-Anonymous Authors.\
+Valdemar Švábenský, Mélina Verger, Maria Mercedes T. Rodrigo, Clarence James G. Monterozo, Ryan S. Baker, Miguel Zenon Nicanor Lerias Saavedra, Sébastien Lallé, and Atsushi Shimada.\
 Evaluating Algorithmic Bias in Models for Predicting Academic Performance of Filipino Students.\
-Submitted for review in the 17th International Conference on Educational Data Mining ([EDM 2024](https://educationaldatamining.org/edm2024/)).
+In Proceedings of the 17th International Conference on Educational Data Mining ([EDM 2024](https://educationaldatamining.org/edm2024/)).
 
 # File structure
 
@@ -12,14 +12,14 @@ Submitted for review in the 17th International Conference on Educational Data Mi
 
 Select and normalize Canvas student IDs that will be used later.
 
-(Data not included due to not obtaining approval yet, see Secion 5 in the paper.)
+(We are unable to publish the input data due to the regulations of the legal department of Ateneo de Manila University.)
 
 ## `step2_create_feature_data_set.py`
 
 Compute the values of predictor and target variables from the raw Canvas data.\
 See Section 3.3 in the paper.
 
-(Data not included due to not obtaining approval yet, see Secion 5 in the paper.)
+(We are unable to publish the input data due to the regulations of the legal department of Ateneo de Manila University.)
 
 ## `step3_prediction_modeling.py`
 
@@ -30,5 +30,23 @@ See Section 3.4 in the paper.
 
 ## `step4_fairness_analysis.py`
 
-Perform fairness analysis (summarized in `results_grid.xlsx`).\
+Perform fairness analysis.\
 See Section 3.5 in the paper.
+
+# How to cite
+
+If you use or build upon the materials, please use the BibTeX entry below to cite the original paper (not only this web link).
+
+```
+@inproceedings{Svabensky2024evaluating,
+    author    = {\v{S}v\'{a}bensk\'{y}, Valdemar and Verger, M\'{e}lina and Rodrigo, Maria Mercedes T. and Monterozo, Clarence James G. and Baker, Ryan S. and Saavedra, Miguel Zenon Nicanor Lerias and Lall\'{e}, S\'{e}bastien and Shimada, Atsushi},
+    title     = {{Evaluating Algorithmic Bias in Models for Predicting Academic Performance of Filipino Students}},
+    booktitle = {Proceedings of the 17th International Conference on Educational Data Mining},
+    series    = {EDM '24},
+    location  = {Atlanta, GA, USA},
+    publisher = {International Educational Data Mining Society},
+    month     = {07},
+    year      = {2024},
+    numpages  = {8},
+}
+```

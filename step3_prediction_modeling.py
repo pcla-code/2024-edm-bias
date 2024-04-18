@@ -1,5 +1,7 @@
 """
 Purpose: Use the data set from the previous step to build regression/classification models.
+Authors: Valdemar Švábenský (core), Mélina Verger (command-line execution), Sébastien Lallé (hyperparameter search)
+Reviewed by: Clarence James G. Monterozo
 
 Configuration on which the code was tested: Python 3.10 on Windows 11 (with 8 GB of RAM).
 """
@@ -41,7 +43,7 @@ def prepare_data(filename, feature_scaling=False):
     X = pd.read_csv(filename)
     y = X.pop('grade')
     if BINARY_CLASSIFICATION:
-        y = y.apply(lambda grade: 1 if grade > 0.721 else 0)
+        y = y.apply(lambda grade: 1 if grade < 0.721 else 0)
 
     # X.drop(columns=[
     #     'avg_quiz_submitted_gap'
@@ -59,6 +61,7 @@ def prepare_data(filename, feature_scaling=False):
 
 def create_student_cv_groups(X):
     """
+    Code by Miggy Andres-Bray (https://www.miggyandresbray.com/) to be able to achieve
     student-level cross-validation during model training.
 
     We create a NumPy array `groups` of size equal to the number of rows in the input dataset `X`,
