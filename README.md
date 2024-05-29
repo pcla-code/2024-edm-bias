@@ -37,7 +37,7 @@ See Section 3.5 in the paper.
 
 If you use or build upon the materials, please use the BibTeX entry below to cite the original paper (not only this web link).
 
-```
+```bibtex
 @inproceedings{Svabensky2024evaluating,
     author    = {\v{S}v\'{a}bensk\'{y}, Valdemar and Verger, M\'{e}lina and Rodrigo, Maria Mercedes T. and Monterozo, Clarence James G. and Baker, Ryan S. and Saavedra, Miguel Zenon Nicanor Lerias and Lall\'{e}, S\'{e}bastien and Shimada, Atsushi},
     title     = {{Evaluating Algorithmic Bias in Models for Predicting Academic Performance of Filipino Students}},
