@@ -43,10 +43,14 @@ If you use or build upon the materials, please use the BibTeX entry below to cit
     title     = {{Evaluating Algorithmic Bias in Models for Predicting Academic Performance of Filipino Students}},
     booktitle = {Proceedings of the 17th International Conference on Educational Data Mining},
     series    = {EDM '24},
+    editor    = {Benjamin Paaßen and Carrie Demmans Epp},
     location  = {Atlanta, GA, USA},
     publisher = {International Educational Data Mining Society},
     month     = {07},
     year      = {2024},
+    pages     = {774--751},
     numpages  = {8},
+    url       = {https://educationaldatamining.org/edm2024/proceedings/2024.EDM-posters.82/2024.EDM-posters.82.pdf},
+    doi       = {10.5281/zenodo.12729936},
 }
 ```
